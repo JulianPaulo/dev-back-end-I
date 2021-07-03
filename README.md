@@ -4,7 +4,7 @@
 
 | Plugin | README |
 | ------ | ------ |
-| <a> | Representa um hyperlink, ligando a outro recurso. |
+| `<a>` | Representa um hyperlink, ligando a outro recurso. |
 | <em> | Representa a ênfase do conteúdo. |
 | <strong>| Representa a importância de um pedaço de texto com o forte
 elemento não altera o sentido da frase. |
