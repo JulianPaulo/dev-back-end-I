@@ -7,15 +7,12 @@
 | `<a>` | Representa um hyperlink, ligando a outro recurso. |
 | `<em>` | Representa a ênfase do conteúdo. |
 | `<strong>`| Representa a importância de um pedaço de texto com o forte elemento não altera o sentido da frase. |
-| `<small>` | Representa o lado comentário, que é o texto como um aviso
-legal, um autor que não é essencial para a compreensão do
-documento. |
+| `<small>` | Representa o lado comentário, que é o texto como um aviso legal, um autor que não é essencial para a compreensão do documento. |
 | `<s>` |Define texto com efeito sublinhado |
 | `<cite>` | Representa o título de uma obra. |
 | `<q>` | Define uma curta citação |
 | `<dfn>`| Representa um termo cuja definição está contida em seu conteúdo ancestral mais próximo. |
-| `<abbr>`  Representa uma abreviatura ou acrónimo, eventualmente, com o
-seu significado. |
+| `<abbr>`  Representa uma abreviatura ou acrónimo, eventualmente, com o seu significado. |
 | `<data>`HTML5| Associa o seu conteúdo a um equivalente legível por máquina (este elemento está apenas na versão padrão HTML do WHATWG, e não documentado na versão HTML5 da W3C).|
 | `<time>` HTML5 |Representa um valor de data e hora, eventualmente com um equivalente legível por máquina |
 | `<code>` | Representa uma codificação. |
