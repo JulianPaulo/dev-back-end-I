@@ -71,15 +71,13 @@ sentido. |
 | `search` |  usado especificamente para buscas. | A diferença entre *search* e *text* é basicamente estilística. O uso de uma entrada do tipo search pode fazer com que o campo de entrada fique com o mesmo estilo dos campos de pesquisa da plataforma usada. |
 | `url` | para digitação de URLs absolutas ou relativas com verificação do padrão | A função do url é inserir um URL único e absoluto (link em inglês), que representa uma grande extensão de valores. |
 | `e-mail` |para digitação de e-mails com verificação do padrão. | Se for especificado o atributo *multiple*, podem ser inseridos vários endereços de e-mail, separados por vírgulas. |
-| `datetime`, `date` e `time` | utilizados para acrescentar recurso de calendário para escolha de dia, mês e ano. No caso de datetime e time com abrindo a possibilidade
-para escolher horário com o fuso horário em UTC.|
+| `datetime`, `date` e `time` | utilizados para acrescentar recurso de calendário para escolha de dia, mês e ano. No caso de datetime e time com abrindo a possibilidade para escolher horário com o fuso horário em UTC.|
 | `datetime-local` | 	Para inserir data e hora sem fuso horário. |
 |`week e month` | para digitação da semana do ano ou seleção do mês. | Um exemplo deste formato é 2011-W05 para a quinta semana de 2011. |
 | `number` | para digitação de URLs absolutas ou relativas com verificação do padrão |
 | `e-mail` | específico para números |
 | `range` | abrindo a possibilidade de um tipo de campo que faz um intervalo para escolher, por exemplo, entre 10 e 100. | A implementação do controle de intervalo é um controle deslizante na maioria dos navegadores que têm suporte. |
-|`color`| utilizado para componentes onde o usuário precisa escolher uma cor e
-para isso será disponibilizado uma paleta de cores amigável. |
+|`color`| utilizado para componentes onde o usuário precisa escolher uma cor e para isso será disponibilizado uma paleta de cores amigável. |
 | `autofocus` | faz com que o cursor do mouse vá para o campo em questão no carregamento da página.| autofocus pode ser aplicado para entrada, seleção, área de texto e botão. |
 | `placeholder` | insere um texto anterior já no campo de texto, geralmente como auxílio. Quando o usuário clica no campo o texto se apaga. Este recurso é muito comum. | O valor do placeholder aparece em texto claro até que o elemento seja destacado e o usuário insira alguns dados. Pode ser especificado na entrada e área de texto. |
 | `form` | Especifica um ou mais formulários aos quais o elemento de entrada pertence. | Usando o atributo *form*, os elementos de entrada podem ser colocados em qualquer lugar da página, não apenas no elemento de formulário. Além disso, um único elemento de entrada também pode ser associado a mais de um formulário. |
