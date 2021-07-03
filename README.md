@@ -6,12 +6,12 @@
 ![Tags de conteúdo com semântica interna (inline)](img/SemanticaInterna.png)
 
 # Tags para separação de conteúdo
-[SeparacaoConteúdo)](img/SeparacaoConteúdo.png)
+![SeparacaoConteúdo)](img/SeparacaoConteúdo.png)
 
 # Formatos e suas características
-[Formatoimgs)](img/Formatoimgs.png)
+![Formatoimgs)](img/Formatoimgs.png)
 
-Principais tipos disponíveis para elemento input
-[ElementoInput)](img/ElementoInput.png)
-[formulário)](img/formulário.png)
+# Principais tipos disponíveis para elemento input
+![ElementoInput)](img/ElementoInput.png)
+![formulário)](img/formulário.png)
 
