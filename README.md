@@ -2,12 +2,11 @@
 
 # Tags de conteúdo com semântica interna (inline)
 
-| Plugin | README |
+| Tag | Significado |
 | ------ | ------ |
 | `<a>` | Representa um hyperlink, ligando a outro recurso. |
 | `<em>` | Representa a ênfase do conteúdo. |
-| `<strong>`| Representa a importância de um pedaço de texto com o forte
-elemento não altera o sentido da frase. |
+| `<strong>`| Representa a importância de um pedaço de texto com o forte elemento não altera o sentido da frase. |
 | `<small>` | Representa o lado comentário, que é o texto como um aviso
 legal, um autor que não é essencial para a compreensão do
 documento. |
@@ -17,28 +16,16 @@ documento. |
 | `<dfn>`| Representa um termo cuja definição está contida em seu conteúdo ancestral mais próximo. |
 | `<abbr>`  Representa uma abreviatura ou acrónimo, eventualmente, com o
 seu significado. |
-| `<data>`
-HTML5| Associa o seu conteúdo a um equivalente legível por máquina
-(este elemento está apenas na versão padrão HTML do WHATWG, e não documentado na versão HTML5 da W3C).|
-| `<time>`
-HTML5 |Representa um valor de data e hora, eventualmente com um
-equivalente legível por máquina |
-| `<code>` |Representa uma codificação. |
-| `<var>`| epresenta uma variável, que pode ser uma expressão matemática, ou código de programação, um identificador representando ma constante, um símbolo identificando uma quantificação
-física, um parâmetro de função ou um mero placeholder 
+| `<data>`HTML5| Associa o seu conteúdo a um equivalente legível por máquina (este elemento está apenas na versão padrão HTML do WHATWG, e não documentado na versão HTML5 da W3C).|
+| `<time>` HTML5 |Representa um valor de data e hora, eventualmente com um equivalente legível por máquina |
+| `<code>` | Representa uma codificação. |
+| `<var>`| epresenta uma variável, que pode ser uma expressão matemática, ou código de programação, um identificador representando ma constante, um símbolo identificando uma quantificação física, um parâmetro de função ou um mero placeholder 
 | `<samp>` | Representa uma saída de um programa de computador |
-| `<kbd>` | Representa uma entrada do usuário, geralmente pelo teclado,
-mas não necessariamente, podendo representar outro tipo de
-entrada como comandos de voz transcritos. |
+| `<kbd>` | Representa uma entrada do usuário, geralmente pelo teclado, mas não necessariamente, podendo representar outro tipo de entrada como comandos de voz transcritos. |
 | `<sub>`, `<sup>` | Representa subscrito e sobrescrito, respectivamente |
-| `<i>`| Representa texto em uma voz ou humor alternativo ou em uma
-qualidade diferente. |
-| `<b>` |Representa um texto que chama a atenção para fins utilitários.
-Ele não transmite importância extra e não implica uma voz
-alternativa. |
-| `<span>` |Representa um texto sem significado. Ele deve ser usado quando
-nenhum outro elemento de texto semântico representar um
-significado adequado.|
+| `<i>`| Representa texto em uma voz ou humor alternativo ou em uma qualidade diferente. |
+| `<b>` |Representa um texto que chama a atenção para fins utilitários. Ele não transmite importância extra e não implica uma voz alternativa. |
+| `<span>` |Representa um texto sem significado. Ele deve ser usado quando nenhum outro elemento de texto semântico representar um significado adequado.|
 | `<br>`| Representa uma quebra de linha |
 
 > Fonte:  Mozilla Developer Network ([2018], on-line)
