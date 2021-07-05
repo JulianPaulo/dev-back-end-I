@@ -1,4 +1,9 @@
 # dev-front-end-1
+# Tópicos
+
+[Imagens](#Formatos-de-imagens-e-suas-características)
+[Elemento Input](#Elemento-input)
+[Formulários](#Outros-elementos-para-utilização-em-um-formulário)
 
 # Tags de conteúdo com semântica interna (inline)
 
@@ -44,7 +49,7 @@ sentido. |
 
 > Fonte: Mozilla Developer Network ([2018], on-line)
 
-# Formatos e suas características
+# Formatos de imagens e suas características
 
 | FORMATO | TRANSPARÊNCIA | ANIMAÇÃO | NAVEGADOR
 | ------ | ------ | ------ | ------ |
