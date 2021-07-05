@@ -2,7 +2,9 @@
 # Tópicos
 
 [Imagens](#Formatos-de-imagens-e-suas-características)
+
 [Elemento Input](#Elemento-input)
+
 [Formulários](#Outros-elementos-para-utilização-em-um-formulário)
 
 # Tags de conteúdo com semântica interna (inline)
