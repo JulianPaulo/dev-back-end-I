@@ -3,7 +3,7 @@
 
 [Imagens](#Formatos-de-imagens-e-suas-características)
 
-[Elemento Input](#Elemento-input)
+[Principais tags](#Tags-de-conteúdo-com-semântica-interna-(inline))
 
 [Formulários](#Outros-elementos-para-utilização-em-um-formulário)
 
