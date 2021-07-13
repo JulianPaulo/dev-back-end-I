@@ -1,6 +1,36 @@
 # Tópicos
 
 [Formulários](#Tags-de-conteúdo-com-semântica-interna-(inline))
+[LinguagemPHP](#Linguagem-PHP)
+
+# Linguagem PHP
+
+## Vantagens do PHP
+[VantagensDoPHP](img/VantagensDoPHP.png)
+ > Fonte: HERBERT, R. B. HTML. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 56
+
+## Uso do PHP nas aplicações web
+[VantagensDoPHP](img/PHPAplicacoesWeb.png)
+[VantagensDoPHP](img/PHPAplicacoesWeb2.png)
+ > Fonte: HERBERT, R. B. HTML. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 57-58
+
+## Tipos de dados
+[VantagensDoPHP](img/PHPTiposDeDados.png)
+[VantagensDoPHP](img/PHPTiposDeDados2.png)
+ > Fonte: HERBERT, R. B. HTML. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 66-67
+
+## Declaração de variáveis válidas e inválidas
+[VantagensDoPHP](img/PHPDeclaracoes.png)
+[VantagensDoPHP](img/PHPDeclaracoes2.png)
+ > Fonte: HERBERT, R. B. HTML. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 67-68
+
+## Operadores Aritméticos no PHP
+[VantagensDoPHP](img/PHPOperadores.png)
+ > Fonte: HERBERT, R. B. HTML. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 70
+
+## Diferenças entre uma constante e variável
+[VantagensDoPHP](img/PHPConstanteEVariavel.png)
+ > Fonte: HERBERT, R. B. HTML. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 74
 
 # Formulários
 ## Tags de conteúdo com semântica interna (inline)
