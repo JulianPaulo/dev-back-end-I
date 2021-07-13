@@ -1,13 +1,10 @@
-# dev-front-end-1
+# dev-back-end-1
 # Tópicos
 
-[Imagens](#Formatos-de-imagens-e-suas-características)
+[Formulários](#Tags-de-conteúdo-com-semântica-interna-(inline))
 
-[Principais tags](#Tags-de-conteúdo-com-semântica-interna-(inline))
-
-[Formulários](#Outros-elementos-para-utilização-em-um-formulário)
-
-# Tags de conteúdo com semântica interna (inline)
+# Formulários
+## Tags de conteúdo com semântica interna (inline)
 
 | Tag | Significado |
 | ------ | ------ |
@@ -34,7 +31,7 @@
 
 > Fonte:  Mozilla Developer Network ([2018], on-line)
   
-# Tags para separação de conteúdo
+## Tags para separação de conteúdo
 | ELEMENTO | DESCRIÇÃO |
 | ------ | ------ |
 | `<section>` | Define a seção do documento |
@@ -51,7 +48,7 @@ sentido. |
 
 > Fonte: Mozilla Developer Network ([2018], on-line)
 
-# Formatos de imagens e suas características
+## Formatos de imagens e suas características
 
 | FORMATO | TRANSPARÊNCIA | ANIMAÇÃO | NAVEGADOR
 | ------ | ------ | ------ | ------ |
@@ -60,7 +57,7 @@ sentido. |
 | JPEG| Não | Não | Todos |
 
 
-# Principais tipos disponíveis para elemento input
+## Principais tipos disponíveis para elemento input
 
 | TIPO (TYPE) | DESCRIÇÃO | OBSERVAÇÕES
 | ------ | ------ | ------ |
@@ -100,7 +97,7 @@ sentido. |
  
 > Fonte: Niederauer (2017, p.127).
   
- # Outros elementos para utilização em um formulário
+ ## Outros elementos para utilização em um formulário
   
 | Elemento | Significado |
 | ------ | ------ |
