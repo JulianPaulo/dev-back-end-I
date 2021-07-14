@@ -1,7 +1,8 @@
 # Tópicos
 
-[Formulários](#Tags-de-conteúdo-com-semântica-interna-(inline))
-[LinguagemPHP](#Linguagem-PHP)
+- [Formulários](#Tags-de-conteúdo-com-semântica-interna-(inline))
+
+- [LinguagemPHP](#Linguagem-PHP)
 
 # Linguagem PHP
 
