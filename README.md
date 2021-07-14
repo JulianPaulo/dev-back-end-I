@@ -1,6 +1,6 @@
 # Tópicos
 
-- [Formulários](#Tags-de-conteúdo-com-semântica-interna-(inline))
+- [Formulários](#Formulários)
 
 - [LinguagemPHP](#Linguagem-PHP)
 
