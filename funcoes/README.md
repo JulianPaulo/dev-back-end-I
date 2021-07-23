@@ -13,7 +13,7 @@
   > Fonte: HERBERT, R. B. Funções no PHP. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 125-126
 
 ## Funções para escapes de texto
-![FunçõesParaStrings](../img/funcoes-escape-de-texto.png.png)
+![FunçõesParaStrings](../img/funcoes-escape-de-texto.png)
 
 
  > Fonte: HERBERT, R. B. Funções no PHP. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 127
