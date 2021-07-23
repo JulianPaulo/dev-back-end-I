@@ -1,3 +1,13 @@
+# Tópicos
+
+- [FunçõesParaProcessamento](#Funções-para-processamento-de-texto-(strings))
+
+- [FunçõesMatemáticas](#Funções-matemáticas)
+
+- [FunçõesParaManipulaçãoDeArrays](#Funções-para-manipulação-de-Arrays)
+
+- [FunçõesParaSistemaDeArquivos](#Funções-para-Sistema-de-Arquivos)
+
 # Funções para processamento de texto (strings)
 
 ## Funções mais comuns do PHP para Strings
