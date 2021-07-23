@@ -1,12 +1,12 @@
 # Tópicos
 
-- [FunçõesParaProcessamento](#Funções-para-processamento-de-texto-(strings))
+- [Funções para Processamento de texto](#Funções-para-processamento-de-texto-(strings))
 
-- [FunçõesMatemáticas](#Funções-matemáticas)
+- [Funções Matemáticas](#Funções-matemáticas)
 
-- [FunçõesParaManipulaçãoDeArrays](#Funções-para-manipulação-de-Arrays)
+- [Funções para Manipulação de Arrays](#Funções-para-manipulação-de-Arrays)
 
-- [FunçõesParaSistemaDeArquivos](#Funções-para-Sistema-de-Arquivos)
+- [Funções para Sistema de Arquivos](#Funções-para-Sistema-de-Arquivos)
 
 # Funções para processamento de texto (strings)
 
