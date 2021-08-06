@@ -8,6 +8,9 @@
 
 - [Funções para Sistema de Arquivos](#Funções-para-Sistema-de-Arquivos)
 
+- [Parâmetros para Envio de Email](#Parâmetros-para-Envio-de-Email) 
+
+
 # Funções para processamento de texto (strings)
 
 ## Funções mais comuns do PHP para Strings
@@ -88,3 +91,14 @@ Segundo o site *vivaolinux*, disponibilizado em: https://www.vivaolinux.com.br/a
 ![FunçõesParaRecuperarArquivos](../img/recuperar-salvar-arquivos.png)
 
  > Fonte: HERBERT, R. B. Funções no PHP. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 138
+
+
+## Ìndices contidos em um array de input type=file (upload) para cada arquivo
+![Typefile](../img/type-file.png)
+
+ > Fonte: HERBERT, R. B. Funções no PHP. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 167
+
+## Parâmetros para Envio de Email
+![EnvioDeEmail](../img/EnvioDeEmail.png)
+
+ > Fonte: HERBERT, R. B. Funções no PHP. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 172
