@@ -4,6 +4,29 @@
 
 - [Formulários](#Formulários)
 
+
+
+# Oque faz um bom programador?
+
+O que faz um bom programador?
+Muita gente se pergunta como se tornar um bom programador. Normalmente estão mais
+preocupados em qual linguagem aprender, qual curso fazer, quais livros técnicos ler. Porém podemos dizer que existem qualidades mais importantes a se levar em conta. [...].
+Um bom programador é um pensador analítico.
+Programadores precisam ser solucionadores de problemas.
+O processo de programação requer que possamos quebrar problemas complicados, planejar e implementar soluções e encontrar pequenas inconsistências no código (bugs).
+Pensamento analítico também se manifesta na habilidade de seguir e entender lógicas
+complicadas através de segmentos de código. Isso nos permite alcançar conceitos abstratos como metodologias de Orientação a Objetos e design patterns (padrões de projetos),
+implementando-os em prática.
+Um bom programador tem suas prioridades claras.
+Se eu lhe pedisse para ordenar os itens seguintes por prioridade, como você os ordenaria?
+• Segurança
+• Mantenabilidade
+• Usabilidade
+• Performance
+• Quantidade de LOC (lines of code – linhas de código)
+
+> Fonte: Eu Faço Programas (O QUE FAZ..., 2019, on-line).
+> 
 # Linguagem PHP
 
 ## Vantagens do PHP
