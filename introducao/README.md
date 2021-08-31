@@ -9,3 +9,7 @@
 # Precedência dos operadores
 ![PrecedênciaDosOperadores](../img/precedencia-operadores.png)
 > disponível em: https://www.php.net/manual/pt_BR/language.operators.precedence.php
+
+# Constantes para tratamento de erros
+![ConstantesErros](../img/Erros.png)
+> disponível em: https://www.botecodigital.dev.br/php/exibir-erros-php/
