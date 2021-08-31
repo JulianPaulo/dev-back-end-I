@@ -13,3 +13,9 @@
 # Constantes para tratamento de erros
 ![ConstantesErros](../img/Erros.png)
 > disponível em: https://www.botecodigital.dev.br/php/exibir-erros-php/
+
+Exemplo:
+```php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+```
