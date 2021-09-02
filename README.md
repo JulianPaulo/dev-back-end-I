@@ -4,6 +4,9 @@
 
 - [Formulários](#Formulários)
 
+- [Configurar-o-PHP](#Configurar-o-php-no-Visual-Studeo-Code)
+
+- [Extensões](#Extensões)
 
 
 # Oque faz um bom programador?
