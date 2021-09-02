@@ -1,6 +1,6 @@
 # O que é Programação Orientada a Objetos
 
-## Paradigma
+# Paradigma
 
 Para Bezerra (2007), o termo paradigma pode ser compreendido como um
 modelo ou padrão a ser seguido para a resolução de um problema. No desenvolvimento de software, não existe uma receita de bolo – você, com a sua expertise
@@ -16,7 +16,7 @@ forma, mas com características e comportamentos diferentes.
 
  > Fonte: ALVES, F. Programação Orientada a Objetos. In: DALL’OGLIO, 2009 **Programação back end II**. 22.ed. Maringa, PR: Centro Universiário de Maringá, 2019. p. 12
 
-## Abordagem Estrutural
+### Abordagem Estrutural
 
 O desenvolvimento de software com a abordagem estrutural consiste na construção de um sistema sequencial. Assim, os programas são criados baseados em
 quais funções, procedimentos e variáveis são necessárias para resolver um problema. Esse paradigma possui uma estrutura básica com instruções, decisões e interações de forma sequencial. Nessa forma de programar, é possível ainda criar funções/
@@ -31,7 +31,7 @@ ou seja, uma instrução após a outra.
 
  > Fonte: ALVES, F. Programação Orientada a Objetos. In: ALVES, F. **Programação back end II**. 22.ed. Maringa, PR: Centro Universiário de Maringá, 2019. p. 13
 
-## Abordagem Orientada a Objetos
+### Abordagem Orientada a Objetos
 
 Já o desenvolvimento de software com a abordagem orientada a objetos consiste
 na construção de módulos independentes ou objetos que podem ser facilmente
@@ -157,7 +157,7 @@ public function nomeFuncao()
 ```
  > Fonte: ALVES, F. Programação Orientada a Objetos. In: ALVES, F. 2009 **Programação back end II**. 22.ed. Maringa, PR: Centro Universiário de Maringá, 2019. p. 20
 
-## Método Construtor
+### Método Construtor
 
 O método construtor é um método especial, executado na instância da classe
 pelo operador new, e esse método não produz um valor de retorno, pois estará retornando o próprio objeto. Todavia, o desenvolvedor pode implementar,
@@ -192,7 +192,7 @@ function __construct()
 }
 ```
 
-## Método destrutor
+### Método destrutor
 
 O método destrutor é um outro método especial executado automaticamente
 quando o objeto é desalocado da memória. Esse processo pode ocorrer de forma
@@ -270,3 +270,139 @@ return $this-><atributo>;
 
 Os modificadores de acesso são de extrema importância em um projeto, pois estão ligados diretamente a critérios de segurança e pontos de acesso ao código. Tais
 princípios estão ligados, também, a boas práticas em desenvolvimento
+
+# Encapsulamento
+
+O encapsulamento é um mecanismo
+que provê proteção de acesso aos membros internos de um objeto
+
+ > Fonte: ALVES, F. Pilares da Programação Orientada a Objetos. In: Dall’Oglio (2009, p. 107) **Programação back end II**. 22.ed. Maringa, PR: Centro Universiário de Maringá, 2019. p. 28
+
+Proteger meus atributos significa
+proteger meus dados, e proteger seus comportamentos ocultando o que pode ser
+realizado, deixando visível apenas para quem tem acesso.
+
+Para o autor Bezerra (2007), toda a comunicação entre objetos e classes se dá
+pela troca de mensagem entre objeto remetente, que solicita a execução de alguma
+operação ou valor, e objeto destinatário, que os devolve ao objeto remetente por meio
+da mensagem.
+
+### Como restringir atributos e métodos?
+
+Uma forma de restringi-los é utilizando as visibilidades public, private e
+protected. A visibilidade define a forma como essas propriedades devem ser
+acessadas de forma externa. 
+
+### como acessar esses atributos ou métodos?
+
+Os atributos que possuem a visibilidade public podem ser acessadas por todos os objetos externos de forma direta, isso é um risco para a sua aplicação.
+Os atributos que possuem a visibilidade private só podem ser acessados
+internamente à classe, e, para serem acessados de forma externa, é necessário
+utilizar um método que possua a visibilidade public.
+Os atributos que possuem a visibilidade protected só podem ser acessados
+internamente à classe ou em classes que dela herdam, e, da mesma forma que
+a visibilidade private, para serem acessados de forma externa, é necessário
+utilizar um método que possua a visibilidade public.
+Normalmente, esses métodos são chamados de métodos acessores, que
+vão setar ou resgatar o valor do atributo.
+
+# Entendendo a diferença dos modificadores Static, Abstract e Final
+
+O **modificador Static** é usado para definir que um método ou atributo em uma classe é estático. Nesse caso, o valor estático pertence à classe e não às instâncias,
+mas podem ser usados dentro da classe via ```self```. Isso é muito interessante para valores que devem ficar disponíveis para toda a aplicação, ou seja, valores constantes. Podemos acessá-las fora da classe, e, neste caso, basta colocar o nome da
+classe seguido de **::** e o nome do atributo ou método.
+
+O **modificador Final** previne que classes filhas possam sobrescrever um
+método da superclasse que esteja marcada com o operador final. Se a própria
+classe estiver definida como final, ela também não pode ser estendida, ou seja,
+ela não pode ser superclasse (DALL’OGLIO, 2009).
+
+Confiram a sintaxe do php:
+
+```php
+<?php
+  class Teste1{
+    final public function metodo(){}
+  }
+?>
+
+<?php
+    final class teste
+    {
+
+    }
+?>
+```
+
+O **modificador Abstract** nada mais é do que um método que consiste na definição de uma assinatura na *classe abstrata.* Neste caso, a assinatura do método
+terá um (**;**) no seu fim. Esse método deverá ter a sua implementação realizada na
+classe que a estender. 
+
+Confiram a sintaxe do php:
+
+```php
+abstract class Teste1{
+  abstract public function metodo1();
+  public function metodo2(){
+    //instruções
+  }
+}
+```
+
+# Herança e Classes Abstratas
+
+Segundo Bezerra (2007, p. 11), “a **generalização** pode ser vista como um nível de abstração acima da encontrada entre classes e objetos. Na generalização, classes
+semelhantes são agrupadas em uma hierarquia”
+
+De acordo com Dall’Oglio (2009, p. 98),
+
+> [...] a utilização da herança a objetos e do encapsulamento do código em classes nos orienta em direção a uma maior organização, mas um dos maiores benefícios que encontramos na utilização desse paradigma é o reuso.
+
+Resumindo, a herança se utiliza de uma classe denominada classe filha, que tem os mesmos atributos e responsabilidades de outra classe chamada de classe mãe
+ou classe pai e os seus próprios atributos e responsabilidades. As classes inferiores da hierarquia, automaticamente, herdam todas as propriedades e os métodos das classes superiores, chamadas de superclasses, confira a figura a seguir
+
+![Herança]('../img/herança.png')
+
+Confira a sintaxe a seguir
+
+```php
+class SuperClasse{
+}
+----------------------------------------
+class Filho1 extends SuperClasse{
+}
+----------------------------------------
+class Filho2 extends SuperClasse{
+}
+----------------------------------------
+class FilhodeFilho1 extends Filho1{
+}
+```
+
+### Exemplo de Herança
+
+![HerançaExemplo](../img/Herança-Exemplo.png)
+
+# Classes Abstratas
+
+As classes definidas como abstratas não podem ser
+instanciadas, e qualquer classe que contenha, ao menos, um método abstrato também deve ser abstrata. Contudo, se temos uma classe que não pode ser instanciada, o que pode ser feito com ela? Só podemos entendê-la.
+
+Uma classe abstrata serve como estrutura ou modelo para outras classes, por esse motivo, utilizamos ela com a herança. Dessa forma, marcaremos a classe super como abstract, e o interpretador do php não permitirá que se instancie um objeto de uma classe marcada com abstract. 
+
+Sintaxe:
+
+```php
+abstract class Pessoa
+{
+ /*
+ #####################################
+ conteúdo já escrito no exemplo anterior
+ - declaração dos atributos
+ - método construtor e setters
+ #####################################
+ */
+
+ abstract public function exibirDados();
+?>
+```

@@ -170,3 +170,78 @@ sentido. |
   
   
  > Fonte: HERBERT, R. B. HTML. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 35
+
+ # Configurar o php no Visual Studeo Code
+
+Digite **CTRL+SHIFT+P** E abra o arquivo **JSON SETTINGS**
+
+Coloque o seguinte código:
+
+```json
+  "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    //Quando salvar, forma o código automaticamente
+    "editor.formatOnSave": true,
+
+    //Ignora a verificação dos seguintes arquivos
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+        "**/vendor/*/**": true
+    },
+    //Oque eu não quero que apareça no explore
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+
+    //PHP
+    //Caminho do php.exe
+    "php.validate.executablePath": "/opt/lampp/bin/php",
+    "php.suggest.basic": false, //Não usa o php padrão do vscode
+    "phpSniffer.run": "onType", //Enquanto estiver digitando o código, procura erros
+    "phpSniffer.autoDetect": true,
+    "phpSniffer.standard": "PSR12",
+    "[php]": {
+        "editor.defaultFormatter": "wongjn.php-sniffer"
+```
+- Link gist com settings.json:
+https://gist.github.com/frv-dev/51b9f1c8adf5c7809affae55e0e229e6
+
+- Link composer: 
+https://getcomposer.org/
+
+- Link do github do code sniffer:
+https://github.com/squizlabs/PHP_CodeSniffer
+
+# Extensões:
+
+Extensões:
+
+- Code Runner: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+
+- DotEnv: https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
+
+- EditorConfig for VSCode: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
+- Path Intelisense: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+
+- Twig: https://marketplace.visualstudio.com/items?itemName=mblode.twig-language
+  
+- PHP Intelephense: https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client
+
+- PHP Debug: https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug
+
+- PHP DocBlocker: https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker
+
+- PHP Sniffer: https://marketplace.visualstudio.com/items?itemName=wongjn.php-sniffer
+
+- PHP Getters & Setters: https://marketplace.visualstudio.com/items?itemName=phproberto.vscode-php-getters-setters
+
+- PHP Unit: https://marketplace.visualstudio.com/items?itemName=emallin.phpunit
+
+- PHP Unit Test Explorer: https://marketplace.visualstudio.com/items?itemName=recca0120.vscode-phpunit
