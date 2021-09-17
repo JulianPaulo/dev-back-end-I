@@ -226,6 +226,7 @@ https://github.com/squizlabs/PHP_CodeSniffer
  # Configurar o .editorconfig
  
  Site do editor config: https://editorconfig.org/
+ 
  Crie um arquivo com o nome .editorconfig com as seguintes configurações:
  
  ```config
@@ -246,6 +247,92 @@ end_of_line = lf
 trim_trailing_whitespace = false
  ```
 
+# Configurar o PHP Mess Detector
+
+Site do PHP Mess Detector: https://phpmd.org/
+
+Criar no projeto um arquivo com o nome: phpmd.xml
+
+com as seguintes configurações:
+```xml
+<?xml version="1.0"?>
+<ruleset name="Code Size Rules"
+         xmlns="http://pmd.sf.net/ruleset/1.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sf.net/ruleset/1.0.0 http://pmd.sf.net/ruleset_xml_schema.xsd"
+         xsi:noNamespaceSchemaLocation="http://pmd.sf.net/ruleset_xml_schema.xsd">
+
+    <description>Simples PHP Mess Detector</description>
+
+    <rule ref="rulesets/cleancode.xml">
+        <exclude name="StaticAccess"/> <!-- Remove a validação de acesso estático -->
+        <exclude name="BooleanArgumentFlag"/> <!-- É uma validação na qual o phpmd recrimina o uso de boolean no construtor -->
+    </rule>
+
+    <rule ref="rulesets/codesize.xml">
+        <exclude name="TooManyPublicMethods"/>
+    </rule>
+    <rule ref="rulesets/codesize.xml/TooManyPublicMethods">
+        <properties>
+            <property name="maxmethods" value="20"/>
+        </properties>
+    </rule>
+    <rule ref="rulesets/codesize.xml/ExcessiveMethodLength">
+        <properties>
+            <property name="minimum" value="100"/>
+        </properties>
+    </rule>
+
+    <rule ref="rulesets/controversial.xml">
+        <exclude name="CamelCaseVariableName"/>
+    </rule>
+
+    <rule ref="rulesets/design.xml"/>
+    <rule ref="rulesets/design.xml/CouplingBetweenObjects">
+        <properties>
+            <property name="minimum" value="15"/>
+        </properties>
+    </rule>
+
+    <rule ref="rulesets/naming.xml">
+        <exclude name="ShortVariable"/>
+        <exclude name="LongVariable"/>
+        <exclude name="ShortMethodName"/>
+    </rule>
+    <rule ref="rulesets/naming.xml/ShortVariable">
+        <properties>
+            <property name="minimum" value="2"/>
+        </properties>
+    </rule>
+    <rule ref="rulesets/naming.xml/LongVariable">
+        <properties>
+            <property name="maximum" value="30"/>
+        </properties>
+    </rule>
+    <rule ref="rulesets/naming.xml/ShortMethodName">
+        <properties>
+            <property name="minimum" value="2"/>
+        </properties>
+    </rule>
+    <rule ref="rulesets/naming.xml/BooleanGetMethodName">
+        <properties>
+            <property name="checkParameterizedMethods" value="true"/>
+        </properties>
+    </rule>
+
+    <rule ref="rulesets/unusedcode.xml"/>
+
+</ruleset>
+
+```
+
+Se quizer ignorar algum warning digite:
+@SuppressWarnings("NomeDoParâmetroASerIgnorado")
+
+Exemplo:
+/**
+ *@SuppressWarnings("UnusedFormalParameter")
+ */
 # Extensões:
 
 Extensões:
