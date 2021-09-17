@@ -174,6 +174,8 @@ sentido. |
   
  > Fonte: HERBERT, R. B. HTML. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 35
 
+
+ 
  # Configurar o php no Visual Studeo Code
 
 Digite **CTRL+SHIFT+P** E abra o arquivo **JSON SETTINGS**
@@ -220,6 +222,29 @@ https://getcomposer.org/
 
 - Link do github do code sniffer:
 https://github.com/squizlabs/PHP_CodeSniffer
+
+ # Configurar o .editorconfig
+ 
+ Site do editor config: https://editorconfig.org/
+ Crie um arquivo com o nome .editorconfig com as seguintes configurações:
+ 
+ ```config
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = true #Apaga os espaços no final de uma linha
+insert_final_newline = true #Adiciona uma linha a mais no final
+end_of_line = lf
+
+[*.md] #Para arquivos markdown
+trim_trailing_whitespace = false
+ ```
 
 # Extensões:
 
