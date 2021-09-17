@@ -335,6 +335,13 @@ Exemplo:
  */
 # Extensões:
 
+# Configurar o composer
+
+Faz a configuração primária do composer, baixando a pasta vendor
+```bash
+php composer.phar dump -o
+```
+
 Extensões:
 
 - Code Runner: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
